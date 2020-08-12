@@ -8,7 +8,6 @@ ggplot(data, aes(x = x, y = y))+
   ggtitle("The Plot of y versus x")+
   geom_vline(xintercept = 4)+
   scale_x_continuous(breaks=1:10)
-  scale_x_continous(breaks=1:10)
 
 
 ggsave("example.png", width = 7, height = 5)
