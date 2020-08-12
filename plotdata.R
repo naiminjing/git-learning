@@ -3,7 +3,7 @@ library(ggplot2)
 data <- data.frame(x=1:10, y=(1:10)*3)
 
 ggplot(data, aes(x = x, y = y))+
-  geom_line(color='red')+
+  geom_line(color='blue')+
   geom_point(size = 3, color='red', shape=15)+
   ggtitle("The Plot of y versus x")+
   geom_vline(xintercept = 4)+
