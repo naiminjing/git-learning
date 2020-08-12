@@ -8,3 +8,5 @@ ggplot(data, aes(x = x, y = y))+
   theme_bw()
 
 ggsave("example.png", width = 7, height = 5)
+
+print("This is a mistake")
